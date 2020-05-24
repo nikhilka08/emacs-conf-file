@@ -10,9 +10,9 @@
  (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
-(add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.d/elpa/nord-theme-20180913.1749"))
-(load-theme 'nord t)
 (package-initialize)
+
+(load-theme 'nord t)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
